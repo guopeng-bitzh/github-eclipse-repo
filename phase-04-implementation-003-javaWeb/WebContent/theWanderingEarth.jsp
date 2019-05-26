@@ -26,7 +26,7 @@ function run(clickedObj){
 <body class="background1" >
 <audio id="intr" controls="controls"  src="/static/audio/introduction.mp3" autoplay="autoplay"></audio>
 <audio id="poem"  src="/static/audio/wanderingEarch-poem.mp3" preload="auto"></audio>
-<h1 style="color:white">大家好，我准备设计和实现一个“流浪地球”的漂亮网页！ 欢迎大家观赏,谢谢！</h1>
+<span style="font-size:26px;color:white">大家好，我准备设计和实现一个“<span style="font-size:38px;color:red">流浪地球</span>”的漂亮网页！ 欢迎大家观赏,谢谢！</span>
 <audio id="waiting"  src="/static/audio/waiting.mp3" preload="auto"></audio>
 <img src="/static/imgs/earth.png" style="position:absolute;left:10px;bottom:10px;width:200px" onclick="run(this);return false"/>
 </body>
