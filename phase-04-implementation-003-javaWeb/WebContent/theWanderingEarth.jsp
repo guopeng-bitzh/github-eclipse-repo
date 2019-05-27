@@ -32,7 +32,7 @@
 		$('#poem-txt').animate({
 			bottom : '100px',
 			right : '100px'
-		}, 12000);
+		}, 18000);
 		
 		$('#waiting')[0].play();
 	}
